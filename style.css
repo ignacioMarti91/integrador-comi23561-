@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  .logo {
+
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    
+  }
+
+  nav{
+    background-color: #333;
+    font-size: 12px;
+   
+
+  }
+  
+ 
+  .nav li {
+    margin-left: 20px;
+  
+
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-weight:100;
+    
+  }
+  .nav button{
+    font-weight:100;
+    color: rgb(0, 255, 145);
+    background: none;
+    border: none;
+   
+    
+  }
+   
+
+span {
+    margin-top: 10px;
+    margin-bottom: 100%;
+
+}
+span h2 {
+    font-size: 28px;
+    font-weight: 400;
+
+}
+span h3 {
+
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+#card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#card p {
+    font-size: 18px;
+    color: #666;
+}
+
+#card div span {
+    margin: 0%;
+
+}
+
+.texto-tarjetas{
+    border: 1px solid gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  .main img {
+    width: 250px;
+    justify-content: center;
+    object-fit: cover;
+    
+
+  }
+  .main h2 {
+    font-size: 18px; 
+    text-align: center;
+   
+  }
+  .main h3 {
+    font-size: 15;
+    text-align: center;
+
+}
+.main p {
+
+    text-align: center;
+    width: 250px;
+    
+}
+
+.imagenfoto {
+    display: flex;
+
+
+}
+
+.imagenfoto img {
+    
+width: 500px;
+object-fit: cover;
+} 
+
+
+
+.imagenfoto h2 {
+font-size: 32px; 
+font-weight: bold; 
+color: white;
+padding: 20px; 
+} 
+
+.imagenfoto p {
+font-size: 18px; 
+color: white; 
+padding: 20px;
+}
+#formulario {
+text-align: center;
+padding: 20px;
+margin: 20px;
+} 
+#formulario span {
+margin-bottom: 0%;
+
+}
+#formulario h3 {
+    font-weight: 100;
+}
+
+#formulario input{ 
+    height: 30px;
+    width: 280px;
+
+}
+
+#formulario button {
+    height: 30px;
+    width: 600px;
+    background-color:  rgb(0, 255, 145);
+    border: 0 ;
+}
+.textarea {
+    padding: 20px;
+}
+
+.footer {
+display: flex; 
+align-items: center; 
+justify-content:center ; 
+height: 50px; 
+background-color: #235ceb;  
+} 
+
+.footer a {
+text-decoration: none; 
+color: #fff; 
+font-size: 12px;
+
+
+} 
