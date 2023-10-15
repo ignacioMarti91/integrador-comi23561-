@@ -89,39 +89,45 @@ span h3 {
     border: 1px solid gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+ .main {
+  padding: 30px;
+ }
   .main img {
-    width: 250px;
+    width: 220px;
+    height: 200px;
     justify-content: center;
     object-fit: cover;
     
 
   }
   .main h2 {
-    font-size: 18px; 
+    font-size: 12px; 
     text-align: center;
    
   }
   .main h3 {
-    font-size: 15;
+    font-size: 12;
     text-align: center;
 
 }
 .main p {
 
     text-align: center;
-    width: 250px;
+    font-size: 5px;
+    width: 220px;
+    height: 130px;
     
 }
 
 .imagenfoto {
     display: flex;
+  
+
 
 
 }
 
 .imagenfoto img {
-    
 width: 500px;
 object-fit: cover;
 } 
@@ -129,8 +135,7 @@ object-fit: cover;
 
 
 .imagenfoto h2 {
-font-size: 32px; 
-font-weight: bold; 
+font-size: 32px;  
 color: white;
 padding: 20px; 
 } 
