@@ -166,12 +166,14 @@ margin-bottom: 0%;
 
 #formulario button {
     height: 30px;
-    width: 600px;
+    width: 400px;
     background-color:  rgb(0, 255, 145);
     border: 0 ;
 }
 .textarea {
+  display: inline;
     padding: 20px;
+    margin-top: 10px;
 }
 
 .footer {

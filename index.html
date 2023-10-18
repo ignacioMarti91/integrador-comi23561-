@@ -85,7 +85,7 @@
 </span>
           <div class=" container-fluid text-center" >
             <div class="main row">
-            <div id="card" class="col">
+            <div id="card" class="col col-form-label-lg">
               <img src="img/steve.jpg" alt="">
               <div class="texto-tarjetas">
                 <span class="badge text-bg-primary">react</span>
@@ -143,14 +143,15 @@
           <div class="col">
             <h3>CONVIÉRTETE EN UN</h3>
             <h2>ORADOR</h2>
-            <span><p>Anotate para dar una charla ignite. Cuéntanos de que quieres hablar!.</p></span>
-            <input type="text" value="nombre">
-            <input type="text" value="apellido">
-            <div class="textarea"> 
-              <textarea name="" cols="80" rows="8" ></textarea>
+            <fieldset>            
+            <legend>Anotate como orador para dar una charla ignite. ¡Cuentanos de que quieres hablar!</legend>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <input type="text"  id="apellido" name="apellido" placeholder="Apellido">
+            
+              <textarea name="cometariosr" placeholder="Sobre que quiere hablar" cols="80" rows="8" ></textarea>
               <span><p>Recuerda incluir un titulo para tu charla</p></span>
               <button>enviar</button>
-          </div>
+            </fieldset>
         </div>
       </div>
     </div>
