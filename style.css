@@ -191,3 +191,100 @@ font-size: 12px;
 
 
 } 
+
+.form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+.form h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.form p {
+  color: #333;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.form label {
+  color: #333;
+  font-size: 16px;
+  display: inline;
+  margin: 10px 0;
+
+  
+}
+
+.form input, .form select {
+  
+  width: 30%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10PX 0;
+  text-align: center;
+}
+
+
+
+
+.input-container{
+  width: 70%;
+  display: inline-block;
+  text-align:center;
+  padding: 0px;
+  
+}
+#correo{
+  width: 60%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: block;
+  
+  margin: 0 auto;
+}
+#total{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+#tarjetas {
+  
+  border: 1px solid #666;
+  height: 200px;
+  text-align: center;
+  margin: 20px 20px 20px 10px;
+  
+  
+ 
+  
+
+}
+
+
+
+.form button {
+  width: 40%;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin: 10px 0;
+  display: inline;
+ 
+ 
+}
+
+.form button:hover {
+  background-color: #666;
+}
+
